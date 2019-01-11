@@ -62,6 +62,7 @@ arr.indexOf('a', -4);
 arr.indexOf(null);
 arr.indexOf(NaN);
 ```
+- See also [lastIndexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)
 
 ---
 
@@ -107,5 +108,6 @@ let students = [
 ```
 - Use find to get object which name is Ivy.
 - What is the result if nothing found?
+- See also [findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 
 ---
