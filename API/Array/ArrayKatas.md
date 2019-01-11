@@ -30,3 +30,18 @@ var new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 - Give two array ['a', 'b'] and [1, 2], use concat to get ['a', 'b', 1, 2].
 - Give three array [1, 2, 3], [4, 5, 6], [7, 8, 9], use concat to get [1, 2, 3, 4, 5, ,6 ,7 ,8 ,9].
 - Give a array ['a', 'b'] and two value 'c' and 'd', use concat to get ['a', 'b', 'c', 'd'].
+
+---
+
+### [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+```javascript=
+arr.forEach(function(item, index, array) {
+  // ... do something with item
+});
+```
+### katas
+- Use forEach to print from 0 to 9.
+- Give [1, 2, 3, 4, 5, 6, 7, 8, 9], if element is odd then print 'odd', if it is even then print 'even'.
+- Give ['+', '+', '-', '-', '-'] and number 10, '+' mean plus number by 1, '-' mean minus number by 1, print the result number.
+
+---
