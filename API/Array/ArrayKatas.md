@@ -33,7 +33,7 @@ var new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 
 ---
 
-### [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+## [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 ```javascript=
 arr.forEach(function(item, index, array) {
   // ... do something with item
@@ -43,5 +43,23 @@ arr.forEach(function(item, index, array) {
 - Use forEach to print from 0 to 9.
 - Give [1, 2, 3, 4, 5, 6, 7, 8, 9], if element is odd then print 'odd', if it is even then print 'even'.
 - Give ['+', '+', '-', '-', '-'] and number 10, '+' mean plus number by 1, '-' mean minus number by 1, print the result number.
+
+---
+
+## [indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+```javascript=
+arr.indexOf(searchElement[, fromIndex])
+```
+### katas
+```javascript=
+let arr = ['a', 'b', 'c', 'd', 'e', 'a', 'b','c'];
+//what are the results?
+arr.indexOf('a');
+arr.indexOf('a', 1);
+arr.indexOf('f');
+arr.indexOf('a', -1);
+arr.indexOf('a', -4);
+arr.indexOf(null);
+```
 
 ---
