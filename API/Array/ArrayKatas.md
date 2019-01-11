@@ -111,3 +111,27 @@ let students = [
 - See also [findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 
 ---
+
+## [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+```javascript=
+var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])
+```
+### katas
+```javascript=
+let shopStorage = [
+    {
+        name: 'sword',
+        ammount: 5
+    },
+    {
+        name: 'gun',
+        ammount: 2
+    },
+    {
+        name: 'shield',
+        ammount: 7
+    }
+];
+```
+- Use filter to get items which ammount is greater than 4.
+- Use filter to get items which name is less than 5 characters.
