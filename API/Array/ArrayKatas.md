@@ -52,7 +52,7 @@ arr.indexOf(searchElement[, fromIndex])
 ```
 ### katas
 ```javascript=
-let arr = ['a', 'b', 'c', 'd', 'e', 'a', 'b','c'];
+let arr = ['a', 'b', 'c', 'd', 'e', 'a', 'b','c', NaN];
 //what are the results?
 arr.indexOf('a');
 arr.indexOf('a', 1);
@@ -60,6 +60,7 @@ arr.indexOf('f');
 arr.indexOf('a', -1);
 arr.indexOf('a', -4);
 arr.indexOf(null);
+arr.indexOf(NaN);
 ```
 
 ---
