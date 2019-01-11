@@ -63,3 +63,20 @@ arr.indexOf(null);
 ```
 
 ---
+
+## [includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+```javascript=
+arr.includes(valueToFind[, fromIndex])
+```
+### katas
+```javascript=
+let arr = ['a', 'B', NaN];
+//what are the results?
+arr.includes('a');
+arr.includes('A');
+arr.includes('B', 1);
+arr.includes('B', 2);
+arr.includes(NaN);
+```
+
+---
