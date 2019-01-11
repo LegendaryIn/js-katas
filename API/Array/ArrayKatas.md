@@ -81,3 +81,31 @@ arr.includes(NaN);
 ```
 
 ---
+
+## [find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+```javascript=
+let result = arr.find(function(item, index, array) {
+  // should return true if the item is what we are looking for
+});
+```
+### katas
+```javascript=
+let students = [
+    {
+        id: 1,
+        name: 'Amy',
+    },
+    {
+        id: 2,
+        name: 'Eva',
+    },
+    {
+        id: 3,
+        name: 'Ivy',
+    }
+];
+```
+- Use find to get object which name is Ivy.
+- What is the result if nothing found?
+
+---
